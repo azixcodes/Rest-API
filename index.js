@@ -11,4 +11,4 @@ app.listen(PORT, () => {
   console.log("rever is running on Port" + PORT);
 });
 
-app.get("/", (req, res) => res.send("Hello Server"));
+app.get("/", (_, res) => res.send("Hello Server"));
